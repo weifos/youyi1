@@ -1,7 +1,7 @@
 <template>
   <view class="wrapper-wallet-gift-buy">
     <view class="wallet-gift-buy-tab">
-      <sun-tab :value.sync="index" activeColor="#0056B2" :tabList="tabList"></sun-tab>
+      <sun-tab :value.sync="index" :tabList="tabList"></sun-tab>
     </view>
     <view class="wallet-gift-buy-content wallet-gift-buy-content-1" v-show="index == 0">
       <yoyiTitle title="选择卡面"></yoyiTitle>

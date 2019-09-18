@@ -5,7 +5,7 @@
          <view class="list-item" v-for="(item,index) in listData" :key="item" @click="selectAddress(index)">
              <view class="item__title">{{item.title}}</view>
              <view class="item__address text-gray text-size-sm mt10">{{item.address}}</view>
-             <view class="item__icon" v-if="index == curIndex"><checkbox checked="checked" color="#FFB825"/></view>
+             <view class="item__icon" v-if="index == curIndex"><checkbox checked="checked" color="#9BB9AA"/></view>
          </view>
      </view>
   </view>

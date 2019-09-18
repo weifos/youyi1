@@ -1,6 +1,6 @@
 <template>
   <view class="page-mine-order">
-    <sun-tab :value.sync="index" activeColor="#0056B2" :tabList="tabList"></sun-tab>
+    <sun-tab :value.sync="index" :tabList="tabList"></sun-tab>
     <view class="tab-content">
         <!-- tab-c s -->
         <view class="tab-c" v-if="index == 0">

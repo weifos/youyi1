@@ -1,6 +1,6 @@
 <template>
   <view class="wrapper-wallet-coupon">
-    <sun-tab :value.sync="index" activeColor="#0056B2" :tabList="tabList"></sun-tab>
+    <sun-tab :value.sync="index" :tabList="tabList"></sun-tab>
     <view class="wallet-coupon-list" v-show="index == 0">
       <view class="pay-coupon-list">
         <view class="pay-coupon-item" v-for="(value, key) in [1,2,3]" :key="key">

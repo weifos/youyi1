@@ -47,7 +47,7 @@
           </view>
           <view class="btns-bar">
               <button class="btn bg-sub text-white text-size-basic" @click="openPopup">立即购买</button>
-              <button class="btn bg-main text-white text-size-basic">加入购物车</button>
+              <button class="btn bg-sub2 text-white text-size-basic">加入购物车</button>
           </view>
       </view>
       <!-- product-side-bar e -->

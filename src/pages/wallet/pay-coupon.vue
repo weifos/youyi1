@@ -2,7 +2,7 @@
   <view class="wrapper-wallet-pay-coupon">
     <checkbox-group class="pay-coupon-checkbox" @change="checkboxChange">
       <text>不使用优惠券</text>
-      <checkbox :checked="checked" color="#FFB825"/>
+      <checkbox :checked="checked" color="#9BB9AA"/>
     </checkbox-group>
     <view class="pay-coupon-tips">
       <uniIcon type="info" size="18" color="#787878"/>

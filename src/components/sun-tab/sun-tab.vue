@@ -49,7 +49,7 @@
 			activeColor: { //选中时文字颜色 线条颜色
 				type: String,
 				default () {
-					return '#1e9fff';
+					return '#9BB9AA';
 				}
 			},
 			rangeKey: { // 当tabList为对象时 显示指定下标值

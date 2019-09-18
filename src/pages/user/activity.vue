@@ -1,6 +1,6 @@
 <template>
   <view class="wrapper-user-activity">
-    <sun-tab :value.sync="index" activeColor="#0056B2" :tabList="tabList"></sun-tab>
+    <sun-tab :value.sync="index" :tabList="tabList"></sun-tab>
     <view class="user-activity-list" v-show="index == 0">
       <view class="activity-item" v-for="(item, key) in list" :key="key">
         <activityItem

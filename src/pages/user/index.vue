@@ -137,7 +137,7 @@
           .user-vip{
             height:32px;
             padding:6px 20px;
-            background:rgba(0, 67, 139, 1);
+            background:#829E90;
             border-radius:22px;
             font-size:22px;
             font-weight:400;
@@ -218,7 +218,7 @@
         padding:24px 40px 16px 40px;
         background:rgba(255, 255, 255, 1);
         border-radius:20px;
-        border:2px solid rgba(0, 78, 162, 0.3);
+        border:2px solid rgba(155, 185, 170, 0.3);
         .item-info{
           display:flex;
           flex-direction:row;
@@ -231,7 +231,7 @@
             height:48px;
             font-size:30px;
             font-weight:500;
-            color:rgba(0, 86, 178, 1);
+            color:$yoyi-text-color;
             line-height:48px;
           }
         }
@@ -242,22 +242,26 @@
           justify-content:space-around;
           font-size:24px;
           font-weight:400;
-          color:rgba(0, 78, 162, 0.6);
+          color:$yoyi-text-color;
         }
       }
     }
     .user-index-list{
       background:rgba(245, 245, 245, 1);
       padding-top:16px;
+      
       .uni-list{
         &:before{
           height:0;
         }
       }
       .uni-list-item{
+        font-size: $uni-font-size-middle;
+        
         &__content{
           flex-direction:row;
           justify-content:space-between;
+          &-title{font-size: $uni-font-size-middle;}
           &-note{
             line-height:1.5;
           }

@@ -6,7 +6,7 @@ Vue.use(Vuex)
 const store = new Vuex.Store({
   state: {
     textColor: '#FFFFFF',
-    bgColor: '#004EA2',
+    bgColor: '#9BB9AA',
   },
   mutations: {},
   actions: {},

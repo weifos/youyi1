@@ -4,7 +4,7 @@
     <view class="banner align-center">
       <image class="img" src="/static/images/i1.png"></image>
     </view>
-    <sun-tab :value.sync="index" activeColor="#0056B2" :tabList="tabList"></sun-tab>
+    <sun-tab :value.sync="index" :tabList="tabList"></sun-tab>
     <view class="tab-con">
       <view class="tab-c" v-if="index == 0">
         <view class="activity-list">

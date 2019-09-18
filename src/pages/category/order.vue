@@ -38,7 +38,7 @@
       </view>
       <view class="notice-bar">
         <uni-notice-bar 
-            background-color="#F7E9CB"
+            background-color="#e3e9e6"
             color="#FF5600"
                 single="true" 
                 text="已优惠 ¥20">
@@ -53,7 +53,7 @@
         <view class="pop-content">
             <radio-group class="agreement-checkbox" @change="checkboxChange">
             <view class="pay-item mt20">
-                <view class="text-size-basic"><radio checked="checked" color="#FFB825"/> <text class="dib vam ml20">钱包支付</text></view>
+                <view class="text-size-basic"><radio checked="checked" color="#9BB9AA"/> <text class="dib vam ml20">钱包支付</text></view>
                 <view class="text-gray text-size-sm text-desc">钱包余额 ¥23，尚需 ¥194.5</view>
                 <view class="btns-bar mt20">
                     <button class="btn btn-round btn-size-full text-size-md btn-bg-main text-white">立即充值 ¥194.5</button>
@@ -61,7 +61,7 @@
                 </view>
             </view>
             <view class="pay-item mt20">
-                <view class="text-size-basic"><radio  color="#FFB825"/> <text class="dib vam  ml20">微信支付</text></view>
+                <view class="text-size-basic"><radio  color="#9BB9AA"/> <text class="dib vam  ml20">微信支付</text></view>
             </view>
             </radio-group>
         </view>

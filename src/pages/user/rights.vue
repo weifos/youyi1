@@ -1,6 +1,6 @@
 <template>
   <view class="wrapper-rights">
-    <sun-tab :value.sync="index" activeColor="#0056B2" :tabList="tabList"></sun-tab>
+    <sun-tab :value.sync="index" :tabList="tabList"></sun-tab>
     <view class="rights-content">
       <view class="content-main" v-if="index == 0">
         <rightsList :type="2"></rightsList>

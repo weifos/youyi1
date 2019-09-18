@@ -4,7 +4,7 @@
           <view class="list-item" v-for="item in cartList" :key="item">
               <uni-swipe-action :options="options">
                     <view class='cont'>
-                        <view class="check-bar"><checkbox :checked="item.checked" color="#FFB825"/></view>
+                        <view class="check-bar"><checkbox :checked="item.checked" color="#9BB9AA"/></view>
                         <view class="img-bar"><image :src="item.url"></image></view>
                         <view class="text-bar">
                             <view class="ellipsis">{{item.name}}</view>
@@ -19,7 +19,7 @@
       </view>
       <view class="operation-bar">
           <view class="text-bar align-center">
-              <view class="dib text-size-md"><checkbox :checked="checked" color="#FFB825"/> <text class="dib vam">全选</text></view>
+              <view class="dib text-size-md"><checkbox :checked="checked" color="#9BB9AA"/> <text class="dib vam">全选</text></view>
               <view class="dib text-size-basic">合计：¥<text class="bold text-size-md">5.8元</text></view>
           </view>
           <view class="btns-bar">
@@ -37,7 +37,7 @@ import {uniSwipeAction,uniNumberBox} from "@dcloudio/uni-ui"
              options: [{
                 text: '删除',
                 style: {
-                    backgroundColor: '#FFB825'
+                    backgroundColor: '#9BB9AA'
                 }
             }],
             cartList:[

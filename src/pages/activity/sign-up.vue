@@ -6,7 +6,7 @@
       </view>
       <radio-group class="agreement-checkbox" @change="checkboxChange">
       <view class="list-item" v-for="sItem in formData[0].list" :key="sItem">
-        <radio :checked="checked" :value="sItem.name" color="#FFB825"/>
+        <radio :checked="checked" :value="sItem.name" color="#9BB9AA"/>
         <text>{{sItem.name}}</text>
         <input v-if="sItem.type =='other'" class="yoyi-input-normal" :placeholder="sItem.text" placeholder-class="input-placeholder" />
       </view>
@@ -18,7 +18,7 @@
       </view>
       <checkbox-group class="agreement-checkbox" @change="checkboxChange">
       <view class="list-item" v-for="sItem in formData[1].list" :key="sItem">
-        <checkbox :checked="checked" color="#FFB825"/>
+        <checkbox :checked="checked" color="#9BB9AA"/>
         <text>{{sItem.name}}</text>
         <input v-if="sItem.type =='other'" class="yoyi-input-normal" :placeholder="sItem.text" placeholder-class="input-placeholder" />
       </view>

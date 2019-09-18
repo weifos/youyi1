@@ -13,7 +13,7 @@
     </view>
     <view class="user-agreement">
       <checkbox-group class="agreement-checkbox" @change="checkboxChange">
-        <checkbox :checked="checked" color="#FFB825"/>
+        <checkbox :checked="checked" color="#9BB9AA"/>
         <view>
           <text>我已阅读并同意</text>
           <navigator class="agreement-link" url="/pages/user/index">《老卡会员迁移协议》</navigator>
@@ -90,7 +90,7 @@
       }
       .agreement-link{
         display:inline-block;
-        color:#004EA2;
+        color:$yoyi-text-color;
       }
     }
   }

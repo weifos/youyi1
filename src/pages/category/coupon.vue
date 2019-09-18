@@ -2,10 +2,10 @@
   <view class="wrapper-wallet-coupon">
     <checkbox-group class="coupon-checkbox" @change="checkboxChange">
       <text>不使用优惠券</text>
-      <checkbox :checked="checked" color="#FFB825"/>
+      <checkbox :checked="checked" color="#9BB9AA"/>
     </checkbox-group>
     <view class="coupon-tips">
-      <uniIcon type="info" size="18" color="#D8D8D8"/>
+      <uniIcon type="info" size="18" color="#B2B2B2"/>
       <text>优惠券不能使用多张</text>
     </view>
     <view class="coupon-list">
@@ -59,7 +59,7 @@ page{
     .coupon-tips{
       width:690px;
       margin:20px auto 10px;
-      color:$yoyi-border-color2;
+      color:#B2B2B2;
       height:36px;
     }
     .coupon-list{

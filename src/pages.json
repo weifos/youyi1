@@ -1,6 +1,7 @@
 {
   "pages": [
     //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
     {
       "path": "pages/home/index",
       "style": {
@@ -77,7 +78,7 @@
       "path": "pages/user/index",
       "style":{
         "navigationBarTextStyle": "white",
-        "navigationBarBackgroundColor": "#004EA2"
+        "navigationBarBackgroundColor": "#9BB9AA"
       }
     },
     {
@@ -85,7 +86,7 @@
       "style": {
         "navigationBarTitleText": "我的钱包",
         "navigationBarTextStyle": "white",
-        "navigationBarBackgroundColor": "#004EA2"
+        "navigationBarBackgroundColor": "#9BB9AA"
       }
     },
     {
@@ -105,7 +106,7 @@
       "style": {
         "navigationBarTitleText": "我的积分",
         "navigationBarTextStyle": "white",
-        "navigationBarBackgroundColor": "#004EA2"
+        "navigationBarBackgroundColor": "#9BB9AA"
       }
     },
     {
@@ -125,7 +126,7 @@
       "style": {
         "navigationBarTitleText": "积分兑换",
         "navigationBarTextStyle": "white",
-        "navigationBarBackgroundColor": "#004EA2"
+        "navigationBarBackgroundColor": "#9BB9AA"
       }
     },
     {
@@ -133,7 +134,7 @@
       "style": {
         "navigationBarTitleText": "积分明细",
         "navigationBarTextStyle": "white",
-        "navigationBarBackgroundColor": "#004EA2"
+        "navigationBarBackgroundColor": "#9BB9AA"
       }
     },
     {
@@ -248,7 +249,7 @@
   },
   "tabBar": {
     "color": "#4F4F4F",
-    "selectedColor": "#0056B2",
+    "selectedColor": "#9BB9AA",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
